@@ -1,0 +1,66 @@
+(supertux-level
+  (version 3)
+  (name (_ "1x1"))
+  (author "SuperTux Player")
+  (license "CC-BY-SA 4.0 International")
+  (icon "")
+  (icon-locked "")
+  (sector
+    (name "main")
+    (ambient-light
+      (color 1 1 1)
+    )
+    (background
+      (color 1 1 1)
+      (speed 0.5)
+      (image "images/background/antarctic/arctis2.png")
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (gradient
+      (top_color 0.3 0.4 0.75)
+      (bottom_color 1 1 1)
+      (z-pos -301)
+    )
+    (music
+    )
+    (spawnpoint
+      (name "main")
+      (x 0)
+      (y 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (width 1)
+      (height 1)
+      (tiles
+      0
+      )
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (width 1)
+      (height 1)
+      (tiles
+      0
+      )
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 1)
+      (height 1)
+      (tiles
+      0
+      )
+    )
+    (zeekling
+      (x 352)
+      (y 224)
+    )
+  )
+)
